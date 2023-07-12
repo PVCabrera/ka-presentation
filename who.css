@@ -23,7 +23,7 @@ main {
 
 .lineBreak {
   margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   border-top: 10px solid #fff;
 }
 
@@ -46,23 +46,15 @@ main {
   margin-bottom: 5rem;
 }
 
-#shanaButton {
-  margin-top: 2rem;
+#shanaButton, #kodyButton, #parisButton{
+  border-color: #fff;
+  border-width: 2px;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
+  color: #fff;
 }
 
-#kodyButton {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-#parisButton{
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
 
 /* Mobile Version */
 @media screen and (max-width: 850px){
