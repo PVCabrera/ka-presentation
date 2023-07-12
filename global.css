@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "EBGaramond";
+  src: url(./assets/fonts/EBGaramond-VariableFont_wght.ttf);
+
+  font-family: "EBGaramond-Italic";
+  src: url(./assets/fonts/EBGaramond-Italic-VariableFont_wght.ttf);
+
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+/* Navbar Rules */
+.navbar-brand {
+  font-size: 40px;
+  font-family: "EBGaramond";
+}
+
+.brand-logo {
+  max-width: 250px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.site-name {
+  color: rgb(222, 231, 231);
+  background-color: rgba(0, 0, 0, 0.584);
+  display: flex;
+  justify-content: center;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.584);
+  margin-bottom: 5rem;
+}
+
+.navbar-brand {
+  margin-right: 1.8rem;
+}
+
+.navbar-header {
+  text-align:center;
+}
+
+.navbar-toggler{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.navbar-toggler-icon {
+  width: 50px
+}
+
+@media screen and (max-width: 850px){
+
+  .brand-logo {
+    width: 150px;
+    margin: .5rem;
+  }
+
+  main {
+    margin: 1rem;
+  }
+  
+  .who , .we , .are {
+    font-size: medium;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: #02000089;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-links {
+  width: 25%;
+  text-align: left;
+}
+
+.footer-links h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Futura";
+}
+
+.footer-logo {
+  text-align: center;
+  max-width: 8rem;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
