@@ -1,0 +1,33 @@
+/* what page specific */
+
+body  {
+  background-image: url(../assets/images/TB6.png);
+  background-size: cover;
+  background-color: blue;
+  overflow-x: hidden;
+}
+
+.card {
+  object-fit: cover;
+  background-color: rgba(226, 226, 216, 0.976);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-bottom: 2rem;  
+}
+.card-img-top {
+  height: 20vw;
+  padding: 0%;
+  object-fit: cover;
+}
+
+/* Mobile Version */
+
+@media screen and (max-width: 850px){
+  .card-img-top {
+    height: 50vw;
+    padding: 0%;
+    object-fit: cover;
+  }
+  
+}
